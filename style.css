@@ -145,3 +145,11 @@ font-size: 30px;
     color: #b54769;
     font-size: 14px;
 } 
+
+.tab-contents{
+    display: none;
+}
+
+.tab-contents.active-tab{
+    display: block;
+}

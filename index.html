@@ -45,13 +45,13 @@
                     day surfing, bouldering with friends and playing football. </p>
 
             <div class="tab-titles">
-                <p class="tab-links active-link">Skills</p>
-                <p class="tab-links">Experience</p>
-                <p class="tab-links">Education</p>
-                <p class="tab-links">Emmployment History</p>
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+                <p class="tab-links" onclick="opentab('employmentHistory')">Emmployment History</p>
 
             </div>
-            <div class="tab-contents">
+            <div class="tab-contents active-tab" id="skills">
                 <ul>
                     <li><span>Software Development</span><br>Javascript, Typescript,  React, React Query, HTML, CSS, Databases, Git and more</li>
                     <li><span>Problem Solving</span><br>Proven record of handling complex problems in high-stress situations, by identifying key issues and developing and implementing effective and timely solutions.</li>
@@ -60,7 +60,7 @@
                     <li><span>Diversity Equity and Inclusion</span><br>Experience advocating for equitable access to opportunities and amplifying the voices of underrepresented communities.</li>
                 </ul>
             </div>
-            <div class="tab-contents">
+            <div class="tab-contents" id="experience">
                 <ul>
                     <li><span>Dev Academy</span><br>
                         <li>Frequent pair programming on assignments and coding challenges.</li>
@@ -79,7 +79,7 @@
                 </ul>
             </div>
 
-            <div class="tab-contents">
+            <div class="tab-contents" id="education">
                 <ul>
                     <li><span>Dev Academy</span><br>Certificate in Applied Software Development (2023)</li>
                    <li><span>NorthTec</span><br><li>Bachelor of Social Work (2015-2017)</li>
@@ -88,7 +88,7 @@
                 </ul>
             </div>
 
-            <div class="tab-contents">
+            <div class="tab-contents" id="employmentHistory">
                 <ul>
                     <li><span>RainbowYouth (National LGBT+ Youth NGO)</span><br>
                         <li>Senior Manager of Regional Support Services - (March 2021- March 2023)</li>
@@ -106,5 +106,20 @@
         </div>
     </div>
 </div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
     </body>
 </html>
