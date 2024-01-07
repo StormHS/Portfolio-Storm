@@ -9,8 +9,17 @@ html{
 }
 
 body{
-    background: #080808;
+    background: #c8ebed;
     color: #fff;
+}
+.first-p{
+    color: #fff;
+
+}
+p{
+    color: #262626;
+    text-align: justify;
+    font-size: 20px;
 }
 
 #header{
@@ -81,7 +90,7 @@ font-size: 30px;
 
 #about{
     padding: 80px 0;
-    color: #ababaa;
+    color: #262626;
 }
 
 .row{
@@ -106,7 +115,7 @@ font-size: 30px;
 .sub-title{
     font-size: 60px;
     font-weight: 600;
-    color: #fff;
+    color: #350303;
 }
 
 .tab-titles{
@@ -145,8 +154,9 @@ font-size: 30px;
 }
 
 .tab-contents ul li span{
-    color: #b54769;
-    font-size: 14px;
+    color: #bd0b0b;    
+    font-size: 15px;
+    font-weight: bold;
 } 
 
 .tab-contents{
@@ -217,10 +227,15 @@ font-size: 30px;
     margin-top: 50px;
 }
 
+.work-list h3{
+    font-size: 25px;
+}
+
 .work{
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    color: #350303;
 }
 
 .work img{
@@ -228,12 +243,13 @@ font-size: 30px;
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
+
 }
 
-.layer{
+/* .layer{
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
+    background: linear-gradient(rgba(0,0,0,0.6), #a80e0e);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -248,12 +264,12 @@ font-size: 30px;
     font-size: 14px;
     transition: height 0.5s;
 
-}
+} */
 
-.layer h3{
+/* .layer h3{
     font-weight: 500;
     margin-bottom: 20px;
-}
+} */
 
 .layer a{
     margin-top: 20px;
@@ -261,16 +277,16 @@ font-size: 30px;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
-    background: #fff;
+    /* background: #fff; */
     width: 60px;
     height: 60px;
     border-radius: 50%;
     text-align: center;
 }
 
-.work:hover img{
+/* .work:hover img{
     transform: scale(1.1);
-}
+} */
 
 .work:hover .layer{
     height: 100%;
@@ -288,7 +304,7 @@ font-size: 30px;
     transition: background 0.5s;
 }
 
-.btn:hover{
+.btn{
     background: #ff004f;
 
 }
@@ -341,7 +357,7 @@ font-size: 30px;
     width: 100%;
 }
 
-form input, form textarea{
+/* form input, form textarea{
     width: 100%;
     border: 0;
     outline: none;
@@ -358,7 +374,7 @@ form btn2{
     font-size: 18px;
     margin-top: 20px;
     cursor: pointer;
-}
+} */
 
 .copyright{
     width: 100%;
