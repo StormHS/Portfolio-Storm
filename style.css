@@ -399,11 +399,25 @@ form btn2{
 text-align: center;
 }
 
+/* video */
+.video{
+    overflow: hidden;
+    border-radius: 5px;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 800px; 
+    height: 450px;
+    align-items: center;
+}
+
 /* css for smaller screens */
 
 nav .fa-solid{
     display: none;
 }
+
+
  
 @media only screen and (max-width: 600px){
     #header{
