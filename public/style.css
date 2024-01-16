@@ -11,6 +11,7 @@ html{
 body{
     background: #ffffff;
     color: #fff;
+    font-family: 'Times New Roman', Times, serif;
 }
 .first-p{
     color: #fff;
@@ -20,7 +21,9 @@ p{
     color: #262626;
     text-align: justify;
     font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
 }
+
 
 h4{
     color:#ff004f;
@@ -413,7 +416,7 @@ text-align: center;
 
 .video-small{
     width: 488px;
-    height: 297px;
+    height: 274.5px;
 }
 
 /* css for smaller screens */
