@@ -248,10 +248,10 @@ font-size: 30px;
 
 .work img{
     width: 100%;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     display: block;
-    border: 2px solid #262626;
-    transition: transform 0.5s;
+    border: 2px solid #c1c0c0;
+    /* transition: transform 0.5s; */
 
 }
 
@@ -409,6 +409,11 @@ text-align: center;
     width: 800px; 
     height: 450px;
     align-items: center;
+}
+
+.video-small{
+    width: 488px;
+    height: 297px;
 }
 
 /* css for smaller screens */
