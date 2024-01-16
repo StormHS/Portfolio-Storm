@@ -462,29 +462,47 @@ nav .fa-solid{
         left: 25px;
         cursor: pointer;
     }
-.sub-title{
+    .sub-title{
     font-size: 40px;
 }
-.about-col-1, .about-col-2{
+    .about-col-1, .about-col-2{
     flex-basis: 100%;
 }
-.about-col-1{
+    .about-col-1{
     margin-bottom: 30px;
+    padding: 0 15px;
 }
-.about-col-2{
+    .about-col-2{
     font-size: 14px;
+    padding: 0 15px;
+
 }
-.tab-links{
+    .tab-links{
     font-size: 16px;
     margin-right: 20px;
 
 }
-.contact-left, .contact-right{
+    .contact-left, .contact-right{
     flex-basis: 100%;
 }
-.copyright{
+    .copyright{
     font-size: 14px;
     color: #ff004f;
 }
+
+    p{
+font-size: 14px;
+} 
+
+    .video{
+    width: 320px;
+    height: 180px;
+}
+
+    .video-small{
+    width: 320px;
+    height: 180px;
+}
+
 }
 
