@@ -40,6 +40,9 @@ background-position: center;
 }
 
 nav{
+    /* position: sticky; */
+    top: 0;
+    z-index: 1000;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -363,9 +366,9 @@ font-size: 30px;
     background: #ff004f;
 }
 
-.contact-right form{
+/* .contact-right form{
     width: 100%;
-}
+} */
 
 /* form input, form textarea{
     width: 100%;
@@ -397,7 +400,7 @@ form btn2{
 
 .copyright p{
     color: #fff;
-text-align: center;
+    text-align: center;
 }
 
 /* video */
@@ -416,6 +419,25 @@ text-align: center;
     width: 488px;
     height: 274.5px;
 }
+
+.topButton a{
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: #ababab;
+    transition: transform 0.5s;
+
+
+}
+
+.topButton a:hover{
+    color: #5c5c5c;
+    transform: translateY(-5px);
+}
+
 
 /* css for smaller screens */
 
